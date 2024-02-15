@@ -1,6 +1,8 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 /** @type import('hardhat/config').HardhatUserConfig */
+require("./task/ForkTransferToken")
+
 module.exports = {
   solidity: "0.6.6",
   networks: {
