@@ -25,9 +25,6 @@ task("forkTransfer", "Transfer token in forking mainnet")
 
     const decimal = await token.decimals();
     const amountTransfer = ethers.parseUnits(taskArgs.amount, decimal);
-    console.log("amount", amountTransfer);
-    const balanceOfWhale = await token.balanceOf(whale);
-    console.log("balanceOfWhale", balanceOfWhale);
 
     await deployer.sendTransaction({
       to: whale.address,
