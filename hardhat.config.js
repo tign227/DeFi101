@@ -4,7 +4,16 @@ require("dotenv").config();
 require("./task/ForkTransferToken")
 
 module.exports = {
-  solidity: "0.6.6",
+  solidity: {
+    compilers: [
+      {
+        version: "0.6.6",
+      },
+      {
+        version: "0.8.0",
+      },
+    ],
+  },
   networks: {
     hardhat: {
       forking: {

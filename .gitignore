@@ -14,3 +14,7 @@ node_modules
 /coverage.json
 .DS_Store
 yarn.lock
+package-lock.json
+package.json
+yarn.lock
+yarn.lock
