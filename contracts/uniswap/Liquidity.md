@@ -4,11 +4,11 @@
 
 The user holds a certain amount of tokens, which will be deposited into the liquidity pool. 'a' and 'b' represent the quantities added to Uniswap, calculated by Uniswap. 
 
-![liquity_diagram](/Users/ting/Desktop/github/infru/contracts/uniswap/assert/liquity_diagram.png)
+![liquity_diagram](https://github.com/tign227/defi-infru/blob/main/contracts/uniswap/assert/liquidity.png)
 
 The quantity calculated by Uniswap needs to ensure that the ratio of the two tokens in the liquidity pool remains unchanged.
 
-![liquidity_formula](/Users/ting/Desktop/github/infru/contracts/uniswap/assert/liquidity_formula.png)
+![liquidity_formula](https://github.com/tign227/defi-infru/blob/main/contracts/uniswap/assert/liquidity_formula.png)
 
 
 
@@ -16,7 +16,7 @@ The user provides liquidity, Uniswap calculates the value of the tokens, and the
 
 
 
-![liquidity](/Users/ting/Desktop/github/infru/contracts/uniswap/assert/liquidity.png)
+![liquidity](https://github.com/tign227/defi-infru/blob/main/contracts/uniswap/assert/liquidity.png)
 
 
 
